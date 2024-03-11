@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* img {
+  display: inline-block;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:regular,300,500,700&subset=cyrillic-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular&subset=cyrillic-ext,cyrillic);
+
+body {
+  width: 1920px;
+  height: 2510px;
+  background: linear-gradient(to top, #d8efff, #ffffff);
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 77px;
+  margin-bottom: 63px;
+}
+
+._container {
+  margin: 0 auto;
+  max-width: 1380px;
+  min-width: 320px;
+  min-height: 2252px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1392px) {
+  ._container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  ._container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  ._container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+.p_arraw1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #01457a;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.p_opaciti {
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.p_wrap_main_column_p {
+  font-family: "Noto Sans", sans-serif;
+  color: #01457a;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* @import "fonts"; */
+/* $fontFamily: "Noto+Sans";
+$maxWidthContainer:1380; */
+
+/* .myclass {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  
+} */
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* .wrapper {
+  
+  
+} */
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
